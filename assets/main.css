@@ -1,0 +1,15 @@
+/* Divya Gupta */
+
+#container {
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+}
