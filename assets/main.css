@@ -1,15 +1,62 @@
 /* Divya Gupta */
 
+body {
+    background: #F7F7F7;
+    color: #383838;
+    font-family: Helvetica, sans-serif;
+}
+
+div {
+    margin: 15px 0;
+}
+
+h1 {
+    color: black;
+}
+
+h5 {
+    color: black;
+}
+
+
+
 #container {
     height: auto;
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 40%;
 
     margin-left: auto;
     margin-right: auto;
 
     position: relative;
 }
+
+
+
+.additem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+#incomplete-tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.completed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
