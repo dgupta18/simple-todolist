@@ -14,11 +14,10 @@ h1 {
     color: black;
 }
 
-h5 {
-    color: black;
+hr {
+  border-width: 2px 0;
+  border-color: darkgrey;
 }
-
-
 
 #container {
     height: auto;
@@ -29,8 +28,6 @@ h5 {
 
     position: relative;
 }
-
-
 
 .additem {
     display: flex;
@@ -53,10 +50,9 @@ h5 {
     align-items: center;
 }
 
-.completed {
+#incomplete-tasks > .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
-
